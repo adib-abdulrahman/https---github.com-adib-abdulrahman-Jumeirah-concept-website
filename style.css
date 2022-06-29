@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(0px, 250px);
+    position:absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 100px; 
+    
+}   
+
+.sub-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(0px, 250px);
+    text-align: left;
+    position:absolute;
+    top: 90px;
+    left: 10px;
+    font-size: 30px;
+}
+
+
+.main-screen {
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    height: 105vh;
+    background-color: black;
+}
+
+.background-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(black-shadow);
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .background-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+    .background-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.second-page {
+    background-image: url(burj-al-arab2.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 105vh;
+}  
+
+.about {
+    font-size: 90px;
+    color: white;
+    position: absolute;
+    top: 740px;
+    left: 10px;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 850px;
+    left: 10px;
+}
+
+.about-paragraph2 {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 990px;
+    left: 10px;
+}
+
+.third-page {
+    background-color: black;
+    width: 100%;
+    height: 105vh;
+
+}
+
+.get-involved {
+    color: white;
+    font-size: 60px;
+
+}
+
+.get-involved-paragraph {
+    color: white;
+    font-size: 30px;
+
+}
+
+.fourth-page {
+    background-color: black;
+    width: 100%;
+    height: 105vh;
+
+}
+
+.support-us {
+    color: white;
+    font-size: 60px;
+
+}
+
+.support-us-paragraph {
+    color: white;
+    font-size: 30px;
+
+}
+
+.fifth-page {
+    background-color: black;
+    width: 100%;
+    height: 105vh;
+
+}
+
+.contact {
+    color: white;
+    font-size: 60px;
+
+}
+
+.contact-paragraph {
+    color: white;
+    font-size: 30px;
+
+}
